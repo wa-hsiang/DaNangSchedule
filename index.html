@@ -10,7 +10,7 @@
 a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:24px}
 .hero{background:linear-gradient(135deg,#0f766e,#155e75);color:#fff;border-radius:24px;padding:32px;box-shadow:var(--shadow)}
 .hero h1{margin:0 0 8px;font-size:34px}.hero p{margin:0;opacity:.9}.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);padding:7px 11px;border-radius:999px;font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:20px 0}.summary{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:var(--shadow)}.summary b{display:block;margin-bottom:6px}.summary small{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:20px 0}.summary{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:var(--shadow);text-decoration:none}.summary b{display:block;margin-bottom:6px}.summary small{color:var(--muted)}
 .day{margin:22px 0;background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}.dayhead{padding:22px 24px;display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.daytitle{font-size:24px;font-weight:750}.theme{color:var(--muted);margin-top:4px}.mapbtn{display:inline-flex;align-items:center;gap:7px;text-decoration:none;background:#111827;color:white;padding:10px 14px;border-radius:12px;font-size:14px;white-space:nowrap}.daybody{padding:22px 24px}.route{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 14px;background:#f8fafc;border:1px dashed #cbd5e1;border-radius:14px;margin-bottom:18px}.stop{background:white;border:1px solid #e5e7eb;border-radius:10px;padding:7px 10px;font-size:13px}.arrow{color:#94a3b8}.timeline{display:grid;grid-template-columns:100px 1fr;gap:0;border-top:1px solid var(--line)}.row{display:contents}.time,.event{padding:13px 0;border-bottom:1px solid var(--line)}.time{font-weight:700;color:var(--accent);padding-right:12px}.event b{display:block}.meta{color:var(--muted);font-size:13px;margin-top:3px}.link{display:inline-block;margin-top:6px;font-size:13px;color:var(--blue);text-decoration:none}.link:hover{text-decoration:underline}
 .notes{margin-top:18px;padding:14px 16px;background:#fffbeb;border:1px solid #fde68a;border-radius:14px}.notes b{color:#92400e}.footer{color:var(--muted);font-size:13px;text-align:center;padding:24px 0 8px}
 @media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.dayhead{flex-direction:column}.mapbtn{width:max-content}.timeline{grid-template-columns:78px 1fr}}
@@ -26,10 +26,10 @@ a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:24px}
 </section>
 
 <div class="grid">
-  <a div class="summary" href="#d1"><b>9/14</b><small>抵達・Spa・PPA 聚餐</small></div></a>
-  <a div class="summary" href="#d2"><b>9/15</b><small>Vincom・市中心・Bếp Cuốn</small></div></a>
-  <a div class="summary" href="#d3"><b>9/16</b><small>漢市場・4P's・公司晚宴</small></div></a>
-  <a div class="summary" href="#d4"><b>9/17</b><small>會安古城・咖啡・Spa</small></div></a>
+  <a class="summary" href="#d1"><b>9/14</b><small>抵達・Spa・PPA 聚餐</small></a>
+  <a class="summary" href="#d2"><b>9/15</b><small>Vincom・市中心・Bếp Cuốn</small></a>
+  <a class="summary" href="#d3"><b>9/16</b><small>漢市場・4P's・公司晚宴</small></a>
+  <a class="summary" href="#d4"><b>9/17</b><small>會安古城・咖啡・Spa</small></a>
 </div>
 
 <section class="day" id="d1">
@@ -48,7 +48,7 @@ a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:24px}
 
 <section class="day" id="d2">
   <div class="dayhead"><div><div class="daytitle">DAY 2｜9/15（二）</div><div class="theme">🛍️ Vincom → 龍橋 → 占婆博物館 → 大教堂 → Spa → Bếp Cuốn</div></div>
-  <a class="mapbtn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Peninsula+Hotel+Danang%2C+84+Vo+Nguyen+Giap%2C+Da+Nang&destination=Bep+Cuon+Da+Nang%2C+31-33+Tran+Bach+Dang%2C+Da+Nang&waypoints=Vincom+Plaza+Da+Nang%2C+910A+Ngo+Quyen%7CFatfish+Da+Nang%7CDragon+Bridge+Da+Nang%7CDa+Nang+Museum+of+Cham+Sculpture%2C+02+2+Thang+9%7CDa+Nang+Cathedral%2C+156+Tran+Phu%7CSum+Spa+Da+Nang">🗺️ Day 4 路線 (Google Maps)</a></div>
+  <a class="mapbtn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Peninsula+Hotel+Danang%2C+84+Vo+Nguyen+Giap%2C+Da+Nang&destination=Bep+Cuon+Da+Nang%2C+31-33+Tran+Bach+Dang%2C+Da+Nang&waypoints=Vincom+Plaza+Da+Nang%2C+910A+Ngo+Quyen%7CFatfish+Da+Nang%7CDragon+Bridge+Da+Nang%7CDa+Nang+Museum+of+Cham+Sculpture%2C+02+2+Thang+9%7CDa+Nang+Cathedral%2C+156+Tran+Phu%7CSum+Spa+Da+Nang">🗺️ Day 2 路線 (Google Maps)</a></div>
   <div class="daybody">
     <div class="timeline">
       <div class="row"><div class="time">上午</div><div class="event"><b>🛍️ Vincom Plaza Da Nang</b><div class="meta">現代商場；離飯店近｜910A Ngô Quyền</div><a class="link" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Vincom+Plaza+Da+Nang,+910A+Ngo+Quyen">📍 Vincom Plaza</a></div></div>
@@ -76,7 +76,7 @@ a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:24px}
 
 <section class="day" id="d4">
   <div class="dayhead"><div><div class="daytitle">DAY 4｜9/17（四）</div><div class="theme">🏮 會安古城 → 午餐 → 景點 → 換匯 → 咖啡 → Spa</div></div>
-  <a class="mapbtn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Peninsula+Hotel+Danang%2C+84+Vo+Nguyen+Giap%2C+Da+Nang&destination=Peninsula+Hotel+Danang%2C+84+Vo+Nguyen+Giap%2C+Da+Nang&waypoints=Morning+Glory+Original%2C+106+Nguyen+Thai+Hoc%2C+Hoi+An%7CJapanese+Covered+Bridge%2C+Hoi+An%7CPrecious+Heritage+Art+Gallery+Museum%2C+Hoi+An%7CHoi+An+Market%2C+Hoi+An%7CMot+Hoi+An%2C+150+Tran+Phu%2C+Hoi+An%7CYlang+Ylang+Spa%2C+114%2F20+Tran+Nhan+Tong%2C+Hoi+An">🗺️ Day 2 路線 (Google Maps)</a></div>
+  <a class="mapbtn" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Peninsula+Hotel+Danang%2C+84+Vo+Nguyen+Giap%2C+Da+Nang&destination=Peninsula+Hotel+Danang%2C+84+Vo+Nguyen+Giap%2C+Da+Nang&waypoints=Morning+Glory+Original%2C+106+Nguyen+Thai+Hoc%2C+Hoi+An%7CJapanese+Covered+Bridge%2C+Hoi+An%7CPrecious+Heritage+Art+Gallery+Museum%2C+Hoi+An%7CHoi+An+Market%2C+Hoi+An%7CMot+Hoi+An%2C+150+Tran+Phu%2C+Hoi+An%7CYlang+Ylang+Spa%2C+114%2F20+Tran+Nhan+Tong%2C+Hoi+An">🗺️ Day 4 路線 (Google Maps)</a></div>
   <div class="daybody">
     <div class="timeline">
       <div class="row"><div class="time">09:00</div><div class="event"><b>出發前往會安</b><div class="meta">車程約 40–50 分鐘</div><a class="link" target="_blank" href="https://www.google.com/maps/dir/?api=1&origin=Peninsula+Hotel+Danang,+84+Vo+Nguyen+Giap,+Da+Nang&destination=Hoi+An+Ancient+Town&travelmode=driving">🚐 飯店 → 會安</a></div></div>
